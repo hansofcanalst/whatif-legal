@@ -160,7 +160,7 @@
       <h1>Privacy Policy</h1>
       <p class="meta">
         <span>Effective: May 27, 2026</span>
-        <span>Last updated: May 27, 2026</span>
+        <span>Last updated: June 20, 2026</span>
       </p>
     </header>
 
@@ -176,11 +176,13 @@
 
     <div class="callout">
       <strong>At a glance.</strong> When you transform a photo, the photo
-      is sent to Google's Gemini AI to be edited, and the original plus
-      the result are stored in our Firebase backend so they show up in
-      your gallery. We don't sell your data, don't run ads, and don't
-      track you across other apps. You can delete your account and all
-      associated data from Profile &rarr; Delete Account inside the App.
+      is sent to Google's Gemini AI to be edited &mdash; with your explicit
+      consent the first time &mdash; and the original plus the result are
+      stored in our Firebase backend so they show up in your gallery. We
+      use the paid Gemini tier, under which Google does not use your photos
+      to train its models. We don't sell your data, don't run ads, and
+      don't track you across other apps. You can delete your account and
+      all associated data from Profile &rarr; Delete Account inside the App.
     </div>
 
     <nav class="toc" aria-label="Table of contents">
@@ -188,6 +190,7 @@
       <ol>
         <li><a href="#who-we-are">Who we are</a></li>
         <li><a href="#what-we-collect">Information we collect</a></li>
+        <li><a href="#face-data">Photos and face data</a></li>
         <li><a href="#how-we-use">How we use information</a></li>
         <li><a href="#third-parties">Third-party services</a></li>
         <li><a href="#where-stored">Where your data is stored</a></li>
@@ -241,7 +244,7 @@
         <strong>Subscription state.</strong> If you subscribe to a paid
         tier (Me But Pro), we store your subscription status, plan, and
         renewal state. Payment itself is processed by Apple, Google, or
-        our payments partner (see <a href="#third-parties">Section 4</a>);
+        our payments partner (see <a href="#third-parties">Section 5</a>);
         we never receive or store your full payment card number.
       </li>
       <li>
@@ -289,7 +292,63 @@
       location services.
     </p>
 
-    <h2 id="how-we-use" class="section">3. How we use information</h2>
+    <h2 id="face-data" class="section">3. Photos and face data</h2>
+    <p>
+      Because Me But transforms images of people, the photos you choose
+      typically contain <strong>facial imagery</strong> ("face data"). We
+      treat this as sensitive information and explain its handling here in
+      full.
+    </p>
+    <ul>
+      <li>
+        <strong>What face data we collect.</strong> We collect the photo
+        you select to transform, which generally includes your face or the
+        faces of people in the photo. We process the photo only as an
+        image. We do <strong>not</strong> create, extract, or store
+        separate biometric identifiers such as faceprints, facial-geometry
+        templates, or face-recognition vectors, and we do not use facial
+        imagery to identify you.
+      </li>
+      <li>
+        <strong>How face data is used.</strong> Your photo is used solely
+        to generate the transformation you request and to display the
+        result in your in-app gallery. We do not use your photos or facial
+        imagery for advertising, for building user profiles, or to train
+        our own models.
+      </li>
+      <li>
+        <strong>Sharing with Google's Gemini AI.</strong> To produce a
+        transformation, the photo you choose is securely transmitted to
+        <strong>Google's Gemini API</strong>, a third-party artificial
+        intelligence service operated by Google, which performs the image
+        edit and returns the result. This is the only third party that
+        receives your photo for processing. Me But uses the
+        <strong>paid Gemini API tier</strong>; under Google's terms for
+        that tier, Google does <strong>not</strong> use the images we send
+        to train or improve its models. Google may retain content for a
+        limited period for safety, abuse-prevention, and legal-compliance
+        purposes as described in Google's API terms.
+      </li>
+      <li>
+        <strong>Storage and retention.</strong> Your selected photo and
+        the generated results are stored in our secure Firebase backend
+        (United States, <code>us-central1</code>) and linked to your
+        account so your gallery is available across sessions and devices.
+        They are retained until you delete them. You can delete an
+        individual result from your gallery at any time, and you can delete
+        your entire account from <strong>Profile &rarr; Delete Account</strong>,
+        which permanently removes your stored photos and results. We do
+        not retain your photos after you delete them.
+      </li>
+      <li>
+        <strong>Your consent.</strong> Before your photo is sent to
+        Google's Gemini API for the first time, the App shows you a
+        disclosure and requires your explicit agreement to proceed. If you
+        decline, no photo is sent and no transformation is performed.
+      </li>
+    </ul>
+
+    <h2 id="how-we-use" class="section">4. How we use information</h2>
     <p>We use the information described above only to:</p>
     <ul>
       <li>provide the core image-transformation feature you requested;</li>
@@ -298,7 +357,7 @@
         crashes and tuning prompt quality;</li>
       <li>enforce our <a href="terms.html">Terms of Service</a>, including
         running server-side safety checks (see <a href="#children">Section
-        8</a>);</li>
+        9</a>);</li>
       <li>respond to your support requests and other communications;</li>
       <li>comply with applicable law, lawful requests from authorities,
         and our legal obligations.</li>
@@ -313,7 +372,7 @@
       compliance with legal obligations.
     </p>
 
-    <h2 id="third-parties" class="section">4. Third-party services</h2>
+    <h2 id="third-parties" class="section">5. Third-party services</h2>
     <p>
       We rely on a small number of third-party service providers to
       operate Me But. These providers process your data on our behalf
@@ -375,7 +434,7 @@
       list current and post material changes here.
     </p>
 
-    <h2 id="where-stored" class="section">5. Where your data is stored</h2>
+    <h2 id="where-stored" class="section">6. Where your data is stored</h2>
     <p>
       Our backend runs in the <strong>United States</strong>, on
       infrastructure operated by Google (Firebase) in the
@@ -393,7 +452,7 @@
       sub-processors.
     </p>
 
-    <h2 id="retention" class="section">6. How long we keep data</h2>
+    <h2 id="retention" class="section">7. How long we keep data</h2>
     <ul>
       <li>
         <strong>Account and content.</strong> We keep your account
@@ -427,7 +486,7 @@
       </li>
     </ul>
 
-    <h2 id="your-rights" class="section">7. Your rights and choices</h2>
+    <h2 id="your-rights" class="section">8. Your rights and choices</h2>
     <p>
       Depending on where you live, you may have the following rights
       regarding your personal data:
@@ -459,16 +518,16 @@
       of personal information. <em>We do not sell or share personal
       information as those terms are defined under the CCPA.</em> To
       exercise your rights, use the contact details in
-      <a href="#contact">Section 11</a>.
+      <a href="#contact">Section 12</a>.
     </p>
     <p>
       To exercise any of these rights, email us at the address in
-      <a href="#contact">Section 11</a>. We may need to verify your
+      <a href="#contact">Section 12</a>. We may need to verify your
       identity before acting on a request. We will respond within the
       time required by applicable law.
     </p>
 
-    <h2 id="children" class="section">8. Children and minors</h2>
+    <h2 id="children" class="section">9. Children and minors</h2>
     <p>
       Me But is rated <strong>18+</strong> on the App Store and is not
       directed at children under 13. We do not knowingly collect personal
@@ -487,7 +546,7 @@
       auditing.
     </p>
 
-    <h2 id="security" class="section">9. Security</h2>
+    <h2 id="security" class="section">10. Security</h2>
     <p>
       We protect your data using industry-standard measures, including
       transport encryption (TLS), authenticated access controls,
@@ -499,7 +558,7 @@
       authorities as required by law.
     </p>
 
-    <h2 id="changes" class="section">10. Changes to this policy</h2>
+    <h2 id="changes" class="section">11. Changes to this policy</h2>
     <p>
       We may update this Privacy Policy from time to time. When we do,
       we will revise the "Last updated" date at the top of this page.
@@ -509,7 +568,7 @@
       means you accept the revised Policy.
     </p>
 
-    <h2 id="contact" class="section">11. Contact</h2>
+    <h2 id="contact" class="section">12. Contact</h2>
     <p>
       If you have any questions, concerns, or requests regarding this
       Privacy Policy or your personal information, please contact us at:
